@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@500;700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.custom-remark{
+  color: rgb(43, 151, 170);
+ font-size: 1.75rem;
+
+}
+.p-up{
+  margin-top: -1px;
+  font-size: 14px;
+}
+.star-margin{
+  color: lightgrey ;
+  padding:15px;
+  font-size: 34px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+.box {
+  background: linear-gradient(#2a6d7e ,#24404d);
+  border-radius: 10px;
+  width:116px;
+  height: 74px;
+  padding:25px;
+  margin-left:auto;
+  margin-top: 37px;
+  border-radius: 6px;
+}
+.h1-down{
+  color:white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: -15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p-up{
+  color: white;
+  margin-top: -13px;
+  font-size: 13px;
+}
+.box p{
+  text-align: center;
+}
+.p-custom-remarks{
+  margin-top: -20px;
+  font-size: 19px;
+  margin-left: 5px;
+}
+.star-padding-first{
+  font-size: 30px;
+}
+.star span{
+   color: lightgrey;
+   font-size: 30px;
+   margin-right: 6px;
+}
+.inside-box{
+  font-weight: bold;
+  font-size: 25px;
+}
+.design-family{
+  font-family:'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 43px;
+  margin-top: 16px;
+}
+.box2 {
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  width:81px;
+  height: 53px;
+  padding: 1px;
+  border-radius: 6px;
+
+}
+.custom-text1{
+  font-family:'Open Sans', sans-serif;
+  color: grey;
+  margin-top:-10px;
+  font-size: 11px;
+}
+@media (max-width: 768px) {
+  .box{
+    margin-left:0;
+    margin:auto;
+  }
+}
+@media screen and (width: 768px) {
+  .box{
+    margin-left:auto !important;
+    margin:0;
+  }
+}
+@media (max-width: 320px) {
+  .col-custom{
+    width:100% !important;
+  }
+  .text-custom{
+    text-align: center !important;
+  }
+  .col-custom-stars{
+    width:81% !important;
+  }
+  .box-custom{
+    margin:auto !important;
+  }
+  .box2{
+    margin:auto;
+  }
+}
